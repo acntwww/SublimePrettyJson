@@ -197,7 +197,7 @@ class JqPrettyJson(sublime_plugin.WindowCommand):
             raw_json = self.get_content()
 
             if SUBLIME_MAJOR_VERSION < 3:
-                out, err = p.communicate(bytes(raw_json))
+                out, err = p.communicate(unicode(raw_json).encode('utf-8'))
             else:
                 out, err = p.communicate(bytes(raw_json, "utf-8"))
             output = out.decode("UTF-8").strip()
