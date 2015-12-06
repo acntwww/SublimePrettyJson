@@ -9,7 +9,7 @@ Install this sublime text 2/3 package via [Package Control](https://sublime.wbon
 ### or manually install
 
 - `cd <Packages directory>`
-- `git clone https://github.com/dzhibas/SublimePrettyJson.git`
+- `git clone https://github.com/acntwww/SublimePrettyJson.git`
 
 ## Usage
 
